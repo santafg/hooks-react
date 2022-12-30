@@ -5,6 +5,8 @@ import MouseContainer from "./Apps/useEffect/MouseContainer";
 import IntervalCounter from "./Apps/useEffect/IntervalCounter";
 import CounterOne from "./Apps/useReducer/CounterOne";
 import CounterTwo from "./Apps/useReducer/CounterTwo";
+import CounterPractice from "./Apps/useReducer/CounterPractice";
+import CounterThree from "./Apps/useReducer/CounterThree";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
         {/* <MouseContainer /> */}
         {/* <IntervalCounter /> */}
         {/* <CounterOne /> */}
-        <CounterTwo />
+        {/* <CounterTwo /> */}
+        {/* <CounterPractice /> */}
+        <CounterThree />
       </div>
     </>
   );
