@@ -7,6 +7,7 @@ import CounterOne from "./Apps/useReducer/CounterOne";
 import CounterTwo from "./Apps/useReducer/CounterTwo";
 import CounterPractice from "./Apps/useReducer/CounterPractice";
 import CounterThree from "./Apps/useReducer/CounterThree";
+import { FetchData } from "./Apps/useReducer/FetchData";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <CounterOne /> */}
         {/* <CounterTwo /> */}
         {/* <CounterPractice /> */}
-        <CounterThree />
+        {/* <CounterThree /> */}
+        <FetchData />
       </div>
     </>
   );
