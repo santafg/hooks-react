@@ -8,6 +8,7 @@ import CounterTwo from "./Apps/useReducer/CounterTwo";
 import CounterPractice from "./Apps/useReducer/CounterPractice";
 import CounterThree from "./Apps/useReducer/CounterThree";
 import { FetchData } from "./Apps/useReducer/FetchData";
+import { ParentComponent } from "./Apps/useCallback/ParentComponent";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         {/* <CounterTwo /> */}
         {/* <CounterPractice /> */}
         {/* <CounterThree /> */}
-        <FetchData />
+        {/* <FetchData /> */}
+        <ParentComponent />
       </div>
     </>
   );
