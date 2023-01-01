@@ -9,6 +9,7 @@ import CounterPractice from "./Apps/useReducer/CounterPractice";
 import CounterThree from "./Apps/useReducer/CounterThree";
 import { FetchData } from "./Apps/useReducer/FetchData";
 import { ParentComponent } from "./Apps/useCallback/ParentComponent";
+import MemoCounter from "./Apps/useMemo/Counter";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         {/* <CounterPractice /> */}
         {/* <CounterThree /> */}
         {/* <FetchData /> */}
-        <ParentComponent />
+        {/* <ParentComponent /> */}
+        <MemoCounter />
       </div>
     </>
   );
