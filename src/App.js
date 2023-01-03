@@ -10,6 +10,8 @@ import CounterThree from "./Apps/useReducer/CounterThree";
 import { FetchData } from "./Apps/useReducer/FetchData";
 import { ParentComponent } from "./Apps/useCallback/ParentComponent";
 import MemoCounter from "./Apps/useMemo/Counter";
+import FocusInput from "./Apps/useRef/FocusInput";
+import HookTimer from "./Apps/useRef/HookTimer";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
         {/* <CounterThree /> */}
         {/* <FetchData /> */}
         {/* <ParentComponent /> */}
-        <MemoCounter />
+        {/* <MemoCounter /> */}
+        {/* <FocusInput /> */}
+        <HookTimer />
       </div>
     </>
   );
